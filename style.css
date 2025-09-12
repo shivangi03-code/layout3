@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+
+}
+.navbar {
+  background-color: rgb(87, 86, 86);
+  color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.layout-container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+.sidebar {
+  background-color: #676668d0;
+  color: white;
+  font-size: large;
+  text-align: center;
+  position:static;
+  height: 100%;
+  width: 100%;
+}
+.main-content {
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+}
+.card {
+  background-color: #9e9e9e;
+  color: white;
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.footer {
+  background-color: #5a585c;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
